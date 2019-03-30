@@ -1,0 +1,95 @@
+.footer {
+    width: 100%;
+    color: #280824;
+    padding: 25px 0px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    background: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.footer-top {
+    margin-bottom: 25px;
+}
+
+
+.footer .footer-item {
+    color: #280824;
+}
+
+.footer-item {
+    margin: 10px 0px;
+}
+
+
+.footer-item ul {
+    margin-top: 20px;
+}
+
+.footer-top .col-md-2 ul li:first-child, .footer-top .col-md-3 ul li:first-child {
+    text-transform: uppercase;
+}
+
+.footer-top .col-md-2 ul li:first-child a, .footer-top .col-md-3 ul li:first-child a {
+    color: #280824 !important;
+    font-weight: bold !important;
+}
+
+.footer-top .col-md-2 ul li, .footer-top .col-md-3 ul li {
+    padding: 6px 0px;
+    color: #280824;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.footer-item ul li {
+    /* float: left; */
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #280824;
+    border-radius: 3px;
+    line-height: 18px;
+}
+
+.footer-top .col-md-2 ul li:first-child a, .footer-top .col-md-3 ul li:first-child a {
+    color: #280824 !important;
+}
+
+.footer a {
+    cursor: pointer;
+    color: #280824;
+}
+
+.footer a:hover{
+    color: #3f1339;
+    transition: 0.5s;
+}
+
+.footer-item ul li i {
+    color: #fff;
+    line-height: 20px;
+}
+
+
+li {
+    list-style: none ;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #280824;
+    padding: 15px 10px;
+    border-top: solid 1px #41338b;
+}
+
+.footer-bottom p {
+    font-weight: 300;
+    font-size: 10px;
+    text-transform: uppercase;
+    /* font-weight: 100; */
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,223 @@
+.main-gutter {
+    padding: 0px 100px;
+}
+.tabs {
+    padding: 30px 0px;
+    .ant-tabs-nav {
+        width: 100%;
+        & > div {
+            display: flex;
+            justify-content: space-around;
+            & > .ant-tabs-tab-active {
+                background-color: $color-primary;
+                span {
+                    color: #FFF;
+                    img {
+                        -webkit-filter: invert(100%);
+                    }
+                }
+            }
+            & > div {
+                width: 100%;
+                span {
+                    width: 100%;
+                    display: inline-block;
+                    font-size: 13px;
+                    img {
+                        float: right;
+                        font-size: 23px;
+                        height: 25px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ant-card-meta-description {
+    .desc {
+        a {
+            display: block;
+            margin-top: 16px;
+            text-transform: capitalize;
+        }
+    }
+}
+
+.special-section {
+    margin: 50px 0px;
+    & .ant-col-12,
+    & .ant-col-6 {
+        height: 500px;
+        .gutter-box {
+            background: $color-primary;
+            height: 100%;
+        }
+    }
+}
+
+.news-section {
+    margin: 50px 0px;
+    & .ant-col-4 {
+        height: 300px;
+        .gutter-box {
+            background: #ededed;
+            height: 100%;
+        }
+    }
+}
+
+.page-loader{
+    text-align: center;
+}
+
+.bottom-slider {
+    margin: 50px 0px;
+    padding-top: 50px;
+    .ant-carousel .slick-slide {
+        background: $color-primary;
+    }
+}
+
+.ant-tabs-nav .ant-tabs-tab-active,
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color: $color-primary;
+    font-weight: 500;
+}
+
+.ant-tabs-ink-bar {
+    background: $color-primary;
+}
+
+.ant-btn-dashed {
+    border-color: $color-primary;
+}
+
+
+
+.slider-content{
+    position: absolute;
+}
+
+.slider-content p{
+    line-height: 20px !important;
+    margin-bottom: 0px !important;
+}
+
+.container-slide {
+    position: relative;
+  }
+  
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #280824;
+    background: rgba(255,255,255, 0.3);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .text-block p, h3, a{
+      color: #280824;
+  }
+
+  .text-block a{
+   cursor: pointer;
+}
+
+  .text-block{
+    line-height: 20px !important;
+  }
+
+  .side-news-title {
+    padding: 20px 0px;
+    padding-bottom: 0;
+    background: linear-gradient(to right, #280824 0%, rgb(68, 15, 61) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    padding-top: 0;
+}
+
+.side-news-item {
+    padding-bottom: 10px;
+    border-bottom: dotted 1px #cecece;
+}
+
+.side-news-item p {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+.side-news-item span {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    color: #666;
+}
+
+.side-news-item a{
+    cursor: pointer;
+    color: #0d0248;
+    font-weight: 600;
+    outline: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.side-news-item a p:hover{
+    color:#180582;
+    transition: 0.5s;
+}
+
+.tab-pane h3{
+    text-transform: uppercase;
+    background: linear-gradient(to right, #280824 0%, rgb(68, 15, 61) 50% 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+
+.tab-pane h3::before {
+    content: '';
+    border-left: solid 2px #280824;
+    padding-right: 20px;
+    position: relative;
+    margin-left: -20px;
+}
+
+.hr-list ul li{
+    list-style: circle !important;
+}
+
+
+.leaders-img{
+    margin: 0px -15px;
+}
+
+.leaders-img img{
+    max-height: 180px;
+    width: auto;
+}
+
+.leaders-title {
+    text-transform: uppercase;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.card-list ul li{
+    line-height: 20px;
+}
+
+.news-header-card{
+    width: 100% !important;
+}
+.card{
+    margin: 0 !important;
+}

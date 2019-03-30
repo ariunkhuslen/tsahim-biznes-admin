@@ -1,0 +1,93 @@
+.top-header {
+    width: 100%;
+    background: $color-primary;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    // text-transform: uppercase;
+    ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        justify-content: flex-end;
+        li {
+            list-style: none;
+            border-left: solid 1px #50344b;
+            a {
+                color: #b1a0ae;
+                line-height: 30px;
+                padding: 5px 20px;
+                display: inline-block;
+                font-size: 15px;
+                // font-weight: 500;
+                &:hover {
+                    color: #FFF;
+                }
+            }
+            &:first-child{
+                padding-left: 0;
+            }
+            &:last-child {
+                display: flex;
+                align-items: center;
+                border-right: solid 1px #50344b;
+                color: #FFF;
+                font-size: 16px;
+                padding: 0px 20px;
+                line-height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.main-header {
+    width: 100%;
+    position: relative;
+    background: #FFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+    .header-wrap {
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        transition: all 0.2s ease-in-out;
+        align-items: center;
+        ul {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            li {
+                list-style: none;
+                a {
+                    display: inline-block;
+                    padding: 0px 20px;
+                    font-size: 15px;
+                    line-height: 40px;
+                    color: #000;
+                    text-transform: uppercase;
+                }
+                button {
+                    font-size: 15px;
+                    line-height: 40px;
+                    color: #000;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+.ant-affix {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(199,199,199,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(199,199,199,1);
+    box-shadow: 0px 0px 10px 0px rgba(199,199,199,1);
+    .header-wrap {
+        height: 50px;
+        transition: all 0.2s ease-in-out;
+        .logo {
+            img {
+                height: 30px;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+    }
+}
